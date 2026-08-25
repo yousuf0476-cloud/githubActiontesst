@@ -1,3 +1,4 @@
+name: Run tests on push and pull request
 on: 
   push:
     branches:
