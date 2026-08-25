@@ -1,0 +1,10 @@
+on:
+  schedule:
+    - cron: "0 0 * * 1"
+
+jobs:
+  deily-task:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print massage
+        run: echo "Running the scheduled task"
